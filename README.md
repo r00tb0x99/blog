@@ -1,13 +1,13 @@
 Cloned from alistair.blog. 
 
-Package Manager: YARN\n
+Package Manager: YARN
 After installing next with yarn you will get an error explained here: https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor
 run "npx @next/codemod new-link ." to update <a> children under <Link> parents due to new rendering of <Link>. (better explanation above.)
 
 
 
 Original README from alistar.blog
-#########################################################################################################################################################################
+##########################################################################################################################################
 
 [alistair.blog](https://alistair.blog)
 
@@ -25,4 +25,4 @@ Creating a post is fairly simple, you just need to create a new class that exten
 
 
 
-#########################################################################################################################################################################
+############################################################################################################################################
