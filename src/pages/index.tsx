@@ -14,22 +14,14 @@ export default function Home() {
 			<div>
 				<a
 					className="text-sm text-yellow-700 dark:text-yellow-500"
-					href="https://old.alistair.blog"
+					href="https://www.nullsec.ca"
 				>
-					⚠️ looking for the old blog?
+					NullSec dot CA
 				</a>
 			</div>
 
 			<h2>
-				<span>alistair.blog</span>{' '}
-				<a
-					target="_blank"
-					href="https://github.com/alii/blog"
-					className="text-neutral-500 hover:text-blue-500"
-					rel="noreferrer"
-				>
-					– github
-				</a>
+				<span>r00tsec was taken..</span>
 			</h2>
 
 			<ul className="space-y-1 list-disc list-inside">
