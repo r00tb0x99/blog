@@ -15,14 +15,14 @@ export const config: PageConfig = {
 export default function ServerlessDiscordOAuthDemoPage({user}: Props) {
 	if (!user) {
 		return (
-			<div>
+            <div>
 				<h1>you are not signed in!</h1>
 
-				<Link href="/api/oauth">
-					<a className="text-blue-500 dark:text-blue-300">Log in with Discord ↗</a>
+				<Link href="/api/oauth" className="text-blue-500 dark:text-blue-300">
+					Log in with Discord ↗
 				</Link>
 			</div>
-		);
+        );
 	}
 
 	return (

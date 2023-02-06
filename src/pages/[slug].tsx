@@ -15,7 +15,7 @@ export default function PostPage({slug}: Props) {
 	const post = posts.find(post => post.slug === slug)!;
 
 	return (
-		<div className="space-y-4">
+        <div className="space-y-4">
 			<Head>
 				<title>{post.name}</title>
 				<meta name="description" content={post.excerpt} />
@@ -30,10 +30,12 @@ export default function PostPage({slug}: Props) {
 			)}
 
 			<div>
-				<Link href="/">
-					<a className="text-blue-500 dark:text-neutral-400 hover:text-blue-800 dark:hover:text-neutral-600">
+				<Link
+                    href="/"
+                    className="text-blue-500 dark:text-neutral-400 hover:text-blue-800 dark:hover:text-neutral-600">
+					
 						../
-					</a>
+					
 				</Link>
 			</div>
 
@@ -45,7 +47,7 @@ export default function PostPage({slug}: Props) {
 				{post.render()}
 			</main>
 		</div>
-	);
+    );
 }
 
 export const getStaticProps: GetStaticProps<Props> = async ({params}) => {

@@ -47,12 +47,15 @@ export default function Home() {
 
 function BlogLink(props: {href: string; children: ReactNode}) {
 	return (
-		<li>
-			<Link passHref href={props.href}>
-				<a className="text-blue-500 hover:text-blue-700 dark:hover:text-blue-600">
-					{props.children}
-				</a>
-			</Link>
+        <li>
+			<Link
+                passHref
+                href={props.href}
+                className="text-blue-500 hover:text-blue-700 dark:hover:text-blue-600">
+
+                {props.children}
+
+            </Link>
 		</li>
-	);
+    );
 }
